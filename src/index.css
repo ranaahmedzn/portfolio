@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 .default{
-    @apply font-medium md:p-4 py-2 block hover:text-purple-400 transition cursor-pointer
+    @apply font-medium md:mx-5 py-2 block text-gray-100 hover:text-purple-600 transition cursor-pointer
+}
+.active{
+    @apply font-medium md:mx-5 py-2 block text-purple-500 cursor-pointer
 }

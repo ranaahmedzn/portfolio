@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from '../../assets/my-logo.png'
+// import logo from '../../assets/my-logo.png'
 import { HiBars3BottomRight, HiXMark } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 import NavItems from "./NavItems";
@@ -9,9 +9,10 @@ const Navbar = () => {
 
     return (
         <div className="antialiased">
-            <nav className="relative flex flex-wrap items-center justify-between w-full py-2 px-3 text-lg text-gray-700 bg-white">
+            <nav className="relative flex flex-wrap items-center justify-between w-full py-4 md:py-5 px-3 md:px-0 text-lg">
                 <div>
-                    <Link to="/"><img className="h-[70px]" src={logo} alt="" /></Link>
+                    {/* <Link to="/"><img className="h-[70px]" src={logo} alt="" /></Link> */}
+                    <Link to="/" className="text-3xl font-medium text-white">Rana Sheikh</Link>
                 </div>
 
                 <span className="cursor-pointer md:hidden" onClick={() => setOpen(!open)}>
@@ -20,7 +21,7 @@ const Navbar = () => {
 
 
                 <div className="w-full md:flex md:items-center md:w-auto" id="menu">
-                    <ul className="text-base text-gray-700 hidden md:flex">
+                    <ul className="text-base text-gray-700 hidden md:flex md:items-center">
                         <NavItems />
                     </ul>
 

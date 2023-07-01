@@ -1,14 +1,15 @@
+import { Link } from 'react-router-dom';
 import resume from '../../assets/rana-resume.pdf'
 
 const NavItems = () => {
     return (
         <>
             <li>
-                <a className="active"
-                >Home</a>
+                <Link to="/" className="active"
+                >Home</Link>
             </li>
             <li>
-                <a className="default"
+                <a className="default" href='#about'
                 >About</a>
             </li>
             <li>

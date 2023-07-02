@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { animateScroll as scroll } from 'react-scroll';
+import { animateScroll as scroll} from 'react-scroll';
 import { FaAngleDoubleUp } from 'react-icons/fa';
 
 const ScrollToTop = () => {
@@ -22,7 +22,7 @@ const ScrollToTop = () => {
 
     const scrollToTop = () => {
         scroll.scrollToTop({
-            duration: 1000,
+            duration: 500,
             delay: 0,
             smooth: 'easeInOutQuint',
           });

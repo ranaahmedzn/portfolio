@@ -1,24 +1,28 @@
-import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 import resume from '../../assets/rana-resume.pdf'
 
 const NavItems = () => {
     return (
         <>
             <li>
-                <Link to="/" className="active"
-                >Home</Link>
+                <ScrollLink className="active" to="home" smooth={true} duration={500} offset={-80}>
+                    Home
+                </ScrollLink>
             </li>
             <li>
-                <a className="default" href='#about'
-                >About</a>
+                <ScrollLink className="default" to="about" smooth={true} duration={500} offset={-80}>
+                    About
+                </ScrollLink>
             </li>
             <li>
-                <a className="default"
-                >Projects</a>
+                <ScrollLink className="default" to="projects" smooth={true} duration={500} offset={-80}>
+                    Projects
+                </ScrollLink>
             </li>
             <li>
-                <a className="default" href='#contact'
-                >Contact</a>
+                <ScrollLink className="default" to="contact" smooth={true} duration={500} offset={-80}>
+                    Contact
+                </ScrollLink>
             </li>
             <li>
                 <a download href={resume} className="ml-5 relative inline-flex items-center justify-center px-5 py-2 font-medium text-white bg-gray-800 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500">

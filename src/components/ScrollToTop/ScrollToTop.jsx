@@ -31,7 +31,7 @@ const ScrollToTop = () => {
     return (
         <div>
             {isVisible && (
-                <button className="fixed right-7 bottom-7 text-white p-5 bg-gradient-to-br from-purple-600 to-blue-500 rounded-full" onClick={scrollToTop}>
+                <button className="fixed right-7 bottom-5 text-white p-5 bg-gradient-to-br from-purple-600 to-blue-500 rounded-full animate-bounce" onClick={scrollToTop}>
                     <FaAngleDoubleUp />
                 </button>
             )}

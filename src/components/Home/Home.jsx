@@ -5,6 +5,7 @@ import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import ScrollToTop from '../ScrollToTop/ScrollToTop';
 import { useEffect, useState } from "react";
+import Projects from "../Projects/Projects";
 
 const Home = () => {
     const [activeSection, setActiveSection] = useState('home');
@@ -39,6 +40,7 @@ const Home = () => {
             <Hero />
             <div className='max-w-7xl px-10 mx-auto'>
                 <About />
+                <Projects />
                 <Contact />
             </div>
             <Footer />

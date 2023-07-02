@@ -1,0 +1,50 @@
+[
+  {
+    "_id": 1,
+    "name": "Language Guard",
+    "image": "https://i.ibb.co/CKS3CDG/language-guard.png",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "used_technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Daisyui", "Firebase"],
+    "links": {
+      "client_code": "https://github.com/my-project/client",
+      "server_code": "https://github.com/my-project/server",
+      "live_site": "https://my-project.com"
+    }
+  },
+  {
+    "_id": 2,
+    "name": "Motive Toy",
+    "image": "https://i.ibb.co/SdC9mxc/motive-toy.png",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "used_technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Daisyui", "Firebase"],
+    "links": {
+      "client_code": "https://github.com/my-project/client",
+      "server_code": "https://github.com/my-project/server",
+      "live_site": "https://my-project.com"
+    }
+  },
+  {
+    "_id": 3,
+    "name": "Superior Recipe",
+    "image": "https://i.ibb.co/72Hb9V7/Superior-Recipe.png",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "used_technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Daisyui", "Firebase"],
+    "links": {
+      "client_code": "https://github.com/my-project/client",
+      "server_code": "https://github.com/my-project/server",
+      "live_site": "https://my-project.com"
+    }
+  },
+  {
+    "_id": 4,
+    "name": "Iconic Job",
+    "image": "https://i.ibb.co/b2qKgbF/iconic-job.png",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "used_technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Daisyui", "Firebase"],
+    "links": {
+      "client_code": "https://github.com/my-project/client",
+      "server_code": "https://github.com/my-project/server",
+      "live_site": "https://my-project.com"
+    }
+  }
+]

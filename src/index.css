@@ -2,13 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-.default{
-    @apply font-medium md:mx-5 py-2 block text-gray-100 hover:text-purple-600 transition cursor-pointer
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
 }
-.active{
-    @apply font-medium md:mx-5 py-2 block text-purple-500 cursor-pointer
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #374151;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6f54ef;
+  transition: all .5s;
+  border-radius: 10px;
+}
+
+.default {
+  @apply font-medium md:mx-5 py-2 block text-gray-100 hover:text-purple-600 transition cursor-pointer;
+}
+
+.active {
+  @apply font-medium md:mx-5 py-2 block text-purple-500 cursor-pointer;
 }

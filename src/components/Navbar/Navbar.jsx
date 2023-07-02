@@ -5,7 +5,7 @@ import { HiBars3BottomRight, HiXMark } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 import NavItems from "./NavItems";
 
-const Navbar = () => {
+const Navbar = ({ activeSection }) => {
     const [open, setOpen] = useState(false)
 
     const [isSticky, setIsSticky] = useState(false);
@@ -44,12 +44,12 @@ const Navbar = () => {
 
                 <div className="w-full md:flex md:items-center md:w-auto" id="menu">
                     <ul className="text-base text-gray-700 hidden md:flex md:items-center">
-                        <NavItems />
+                        <NavItems activeSection={activeSection} />
                     </ul>
 
                     <div className={`w-full md:hidden overflow-hidden text-gray-700 bg-white transition-all duration-500 ${open ? "h-[250px]" : "h-0"}`}>
                         <ul className="pt-4">
-                            <NavItems />
+                            <NavItems activeSection={activeSection} />
                         </ul>
                     </div>
                 </div>

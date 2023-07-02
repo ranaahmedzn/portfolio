@@ -1,26 +1,26 @@
 import { Link as ScrollLink } from 'react-scroll';
 import resume from '../../assets/rana-resume.pdf'
 
-const NavItems = () => {
+const NavItems = ({activeSection}) => {
     return (
         <>
             <li>
-                <ScrollLink className="active" to="home" smooth={true} duration={500} offset={-80}>
+                <ScrollLink className={`${activeSection === 'home' ? 'active' : 'default'}`} to="home" smooth={true} duration={500} offset={-80}>
                     Home
                 </ScrollLink>
             </li>
             <li>
-                <ScrollLink className="default" to="about" smooth={true} duration={500} offset={-80}>
+                <ScrollLink className={`${activeSection === 'about' ? 'active' : 'default'}`} to="about" smooth={true} duration={500} offset={-80}>
                     About
                 </ScrollLink>
             </li>
             <li>
-                <ScrollLink className="default" to="projects" smooth={true} duration={500} offset={-80}>
+                <ScrollLink className={`${activeSection === 'projects' ? 'active' : 'default'}`} to="projects" smooth={true} duration={500} offset={-80}>
                     Projects
                 </ScrollLink>
             </li>
             <li>
-                <ScrollLink className="default" to="contact" smooth={true} duration={500} offset={-80}>
+                <ScrollLink className={`${activeSection === 'contact' ? 'active' : 'default'}`} to="contact" smooth={true} duration={500} offset={-80}>
                     Contact
                 </ScrollLink>
             </li>

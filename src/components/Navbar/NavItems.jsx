@@ -17,7 +17,7 @@ const NavItems = () => {
                 >Projects</a>
             </li>
             <li>
-                <a className="default"
+                <a className="default" href='#contact'
                 >Contact</a>
             </li>
             <li>

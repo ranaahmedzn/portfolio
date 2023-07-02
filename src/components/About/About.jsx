@@ -3,7 +3,7 @@ import image from '../../assets/profile.jpg'
 
 const About = () => {
     return (
-        <div id="about" className="h-screen py-10">
+        <div id="about" className="py-10">
             <hr className="animate-bounce h-2 w-[80px] mx-auto mb-3 border-0 rounded-full bg-purple-600" />
             <h2 className="text-4xl font-bold text-center text-white">About Me</h2>
             <div className="flex justify-between items-center mt-10">

@@ -2,6 +2,7 @@ import './Home.css'
 import Hero from "../Hero/Hero";
 import Navbar from "../Navbar/Navbar";
 import About from '../About/About';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             </div>
             <div className='max-w-7xl px-10 mx-auto'>
                 <About />
+                <Contact />
             </div>
         </div>
     );

@@ -23,7 +23,7 @@ const Home = () => {
 
         for (let i = 0; i < sections.length; i++) {
             const section = document.getElementById(sections[i]);
-            console.log(section)
+
             if (section && scrollPosition >= section.offsetTop && scrollPosition < section.offsetTop + section.offsetHeight) {
                 setActiveSection(sections[i]);
                 break;

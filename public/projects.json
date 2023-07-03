@@ -4,11 +4,12 @@
     "name": "Language Guard",
     "image": "https://i.ibb.co/CKS3CDG/language-guard.png",
     "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "features": ["Rana", "Torik", "Kashem", "Shakil", "Tawhid", "Sojib", "Abdullah", "Ripon"],
     "used_technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Daisyui", "Firebase"],
     "links": {
-      "client_code": "https://github.com/my-project/client",
-      "server_code": "https://github.com/my-project/server",
-      "live_site": "https://my-project.com"
+      "client_code": "https://github.com/ranasheikhzn/language-guard",
+      "server_code": "https://github.com/ranasheikhzn/language-guard-server",
+      "live_site": "https://language-guard.web.app/"
     }
   },
   {
@@ -16,11 +17,12 @@
     "name": "Motive Toy",
     "image": "https://i.ibb.co/SdC9mxc/motive-toy.png",
     "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "features": ["Rana", "Torik", "Kashem", "Shakil", "Tawhid", "Sojib", "Abdullah", "Ripon"],
     "used_technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Daisyui", "Firebase"],
     "links": {
-      "client_code": "https://github.com/my-project/client",
-      "server_code": "https://github.com/my-project/server",
-      "live_site": "https://my-project.com"
+      "client_code": "https://github.com/ranasheikhzn/motive-toy",
+      "server_code": "https://github.com/ranasheikhzn/motive-toy-server",
+      "live_site": "https://motive-toy.web.app/"
     }
   },
   {
@@ -28,11 +30,12 @@
     "name": "Superior Recipe",
     "image": "https://i.ibb.co/72Hb9V7/Superior-Recipe.png",
     "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "features": ["Rana", "Torik", "Kashem", "Shakil", "Tawhid", "Sojib", "Abdullah", "Ripon"],
     "used_technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Daisyui", "Firebase"],
     "links": {
-      "client_code": "https://github.com/my-project/client",
-      "server_code": "https://github.com/my-project/server",
-      "live_site": "https://my-project.com"
+      "client_code": "https://github.com/ranasheikhzn/superior-recipe",
+      "server_code": "https://github.com/ranasheikhzn/superior-recipe-server",
+      "live_site": "https://superior-recipe.web.app/"
     }
   },
   {
@@ -40,11 +43,11 @@
     "name": "Iconic Job",
     "image": "https://i.ibb.co/b2qKgbF/iconic-job.png",
     "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "features": ["Rana", "Torik", "Kashem", "Shakil", "Tawhid", "Sojib", "Abdullah", "Ripon"],
     "used_technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Daisyui", "Firebase"],
     "links": {
-      "client_code": "https://github.com/my-project/client",
-      "server_code": "https://github.com/my-project/server",
-      "live_site": "https://my-project.com"
+      "client_code": "https://github.com/ranasheikhzn/iconic-job",
+      "live_site": "https://iconic-job.web.app/"
     }
   }
 ]

@@ -32,10 +32,10 @@ const Contact = () => {
     return (
         <section id="contact" className="pt-10 pb-20">
             <hr className="animate-bounce h-2 w-[80px] mx-auto mb-3 border-0 rounded-full bg-purple-600" />
-            <h2 className="text-4xl font-bold text-center text-white mb-10">Contact Me</h2>
+            <h2 className="poppins-font text-4xl font-bold text-center text-white mb-10">Contact Me</h2>
 
-            <div className="flex flex-row-reverse gap-40 items-center justify-between">
-                <div data-aos="fade-up-left" data-aos-delay="50" data-aos-duration="1200" className="rounded-lg w-1/2">
+            <div className="flex flex-col-reverse md:flex-row-reverse gap-16 md:gap-40 items-center justify-between">
+                <div data-aos="fade-up-left" data-aos-delay="50" data-aos-duration="1200" className="rounded-lg w-full md:w-1/2">
                     <div className="flex flex-col">
                         <form ref={form} onSubmit={handleSubmit(onSubmit)}>
                             <div className="grid gap-4 lg:gap-6">
@@ -83,7 +83,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="1200" className="w-1/2">
+                <div data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="1200" className="w-full md:w-1/2">
                     <div className="mb-7">
                         <h2 className="text-gray-100 mb-2 text-3xl font-bold">Let&apos;s work with me</h2>
                         <p className="text-gray-300">Let&apos;s join forces and bring your ideas to life! With collaboration and creativity, we can achieve something truly amazing. I&apos;m excited to work together and turn your vision into a reality. Don&apos;t wait any longer, Reach out now and let&apos;s get started!</p>

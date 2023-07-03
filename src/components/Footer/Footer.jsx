@@ -4,8 +4,8 @@ const Footer = () => {
     return (
         <>
             <hr className="border-1 border-gray-700" />
-            <div className="max-w-7xl px-10 mx-auto text-gray-300 flex justify-between items-center py-6">
-                <h3 className="font-bold text-2xl mb-1 text-gray-300"><span className="text-[#6f54ef]">Rana</span> Sheikh</h3>
+            <div className="max-w-7xl px-4 md:px-10 mx-auto text-gray-300 flex flex-col md:flex-row justify-between items-center py-6 space-y-4">
+                <h3 className="font-bold text-2xl text-gray-300"><span className="text-[#6f54ef]">RANA</span> SHEIKH</h3>
                 <p>&copy; Copyright 2023 | All right reserved.</p>
                 <div className="flex gap-3">
                     <a href="https://www.linkedin.com/in/ranasheikhzn/">

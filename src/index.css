@@ -1,8 +1,11 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
+html, body{
   overflow-x: hidden;
 }
 
@@ -32,4 +35,8 @@ body.modal-open {
 
 .active {
   @apply font-medium md:mx-5 py-2 block text-purple-500 cursor-pointer;
+}
+
+.poppins-font{
+  font-family: 'Poppins', sans-serif;
 }

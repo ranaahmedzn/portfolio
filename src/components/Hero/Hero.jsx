@@ -7,19 +7,19 @@ import { Link as ScrollLink } from 'react-scroll';
 const Hero = () => {
     return (
         <div className="hero">
-            <div className="h-[calc(100vh-80px)] max-w-7xl px-10 mx-auto flex justify-between items-center">
-                <div className="w-3/5"
+            <div className="h-[calc(100vh-80px)] max-w-7xl px-4 md:px-10 mx-auto flex flex-col-reverse md:flex-row justify-center md:justify-between items-center">
+                <div className="w-full md:w-3/5"
                 data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-delay="50"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out" 
                 >
-                    <p className="text-3xl font-bold text-purple-500">HEY!</p>
-                    {/* <h3 className='text-6xl font-bold text-gray-100'>I&apos;m Rana Sheikh</h3> */}
+                    <p className="text-2xl md:text-3xl font-bold text-purple-500">HEY!</p>
+                    {/* <h2 className='text-4xl md:text-6xl font-bold text-gray-100'>I am Rana Sheikh</h2> */}
                     <TypeAnimation
+                        className='text-4xl md:text-[50px] font-bold text-gray-100'
                         sequence={[
-                            // Same substring at the start will only be typed once, initially
                             "I'm Rana Sheikh",
                             1000,
                             "I'm a MERN Stack Developer",
@@ -30,7 +30,7 @@ const Hero = () => {
                             1000,
                         ]}
                         speed={50}
-                        style={{ fontSize: '50px', fontWeight: 'bold', color: "white" }}
+                        // style={{ fontSize: '50px', fontWeight: 'bold', color: "white" }}
                         repeat={Infinity}
                     />
                     <p className="mt-4 mb-6 w-full md:w-5/6 text-gray-300">Welcome to my captivating portfolio website! I am a passionate front-end web application developer with expertise in building exceptional websites using the powerful MERN stack. With 1 year of experience in the field, I bring creativity, skill, and a strong dedication to delivering remarkable digital experiences. Explore my portfolio and witness the magic of my creations!</p>

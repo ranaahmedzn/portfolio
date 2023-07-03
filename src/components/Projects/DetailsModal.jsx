@@ -13,7 +13,7 @@ const DetailsModal = ({ id, setOpenModal }) => {
     }, [])
 
     return (
-        <div data-aos="flip-left" className="fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-hidden md:inset-0 max-h-screen flex justify-center items-center bg-gray-900">
+        <div style={{backgroundImage: 'url(	https://tailwindcss.com/_next/static/media/hero-dark@90.dba36cdf.jpg)', backgroundSize: 'cover', backgroundPosition: 'top'}} data-aos="flip-left" className="fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-hidden md:inset-0 h-screen max-h-screen flex justify-center items-center bg-gray-900">
             <div className="relative overflow-y-auto rounded-lg w-full max-w-xl h-4/5 border border-[#6f54ef]">
                 <button onClick={() => setOpenModal(false)} type="button" className="absolute top-2.5 right-2.5 z-10 text-gray-300 bg-[#6f54ef] rounded-full p-2 hover:bg-gradient-to-br from-purple-600 to-blue-500 hover:scale-105 transition duration-300">
                     <FaXmark />

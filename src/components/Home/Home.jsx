@@ -38,7 +38,7 @@ const Home = () => {
         <div id="home" className="bg-gradient-to-br from-[#0F2033] via-[#1B1631] to-[#0F172B]">
             <Navbar activeSection={activeSection} />
             <Hero />
-            <div className='max-w-7xl px-10 mx-auto'>
+            <div className='max-w-7xl px-4 md:px-10 mx-auto'>
                 <About />
                 <Projects />
                 <Contact />

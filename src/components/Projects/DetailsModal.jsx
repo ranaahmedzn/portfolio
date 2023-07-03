@@ -13,15 +13,15 @@ const DetailsModal = ({ id, setOpenModal }) => {
     }, [])
 
     return (
-        <div className="fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-hidden md:inset-0 max-h-screen flex justify-center items-center bg-gray-700 bg-opacity-50">
-            <div className="relative overflow-y-auto rounded-lg w-full max-w-xl h-4/5">
-                <button onClick={() => setOpenModal(false)} type="button" className="absolute top-2.5 right-2.5 text-gray-300 bg-[#6f54ef] rounded-full p-2">
+        <div data-aos="flip-left" className="fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-hidden md:inset-0 max-h-screen flex justify-center items-center bg-gray-900">
+            <div className="relative overflow-y-auto rounded-lg w-full max-w-xl h-4/5 border border-[#6f54ef]">
+                <button onClick={() => setOpenModal(false)} type="button" className="absolute top-2.5 right-2.5 z-10 text-gray-300 bg-[#6f54ef] rounded-full p-2 hover:bg-gradient-to-br from-purple-600 to-blue-500 hover:scale-105 transition duration-300">
                     <FaXmark />
                 </button>
 
-                <div className="bg-gradient-to-br from-[#0F2033] via-[#1B1631] to-[#0F172B] p-5 overflow-hidden rounded-lg">
+                <div data-aos="zoom-in" data-aos-duration="400" data-aos-easing="ease-in-out"  className="bg-gradient-to-br from-[#0F2033] via-[#1B1631] to-[#0F172B] p-5 overflow-hidden rounded-lg">
                     <h3 className="mb-3 text-xl font-bold text-gray-100">{project.name}</h3>
-                    <img className="w-full" src={project.image} alt="" />
+                    <img className="w-full rounded-md" src={project.image} alt="" />
                     <div className="mt-3 mb-5">
                         <h3 className="mb-3 text-xl font-bold text-gray-100">Used Technologies</h3>
                         <div className="flex gap-2 items-center flex-wrap">

@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* html {
-  scroll-behavior: smooth;
-} */
+body{
+  overflow-x: hidden;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
 
 /* width */
 ::-webkit-scrollbar {
@@ -19,7 +23,6 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #6f54ef;
-  transition: all .5s;
   border-radius: 10px;
 }
 

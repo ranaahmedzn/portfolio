@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import Home from './components/Home/Home.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const router = createBrowserRouter([
   {

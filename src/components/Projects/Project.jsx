@@ -1,12 +1,24 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import DetailsModal from "./DetailsModal";
 import Button1 from "../Button1/Button1";
 
 const Project = ({ project }) => {
     const [openModal, setOpenModal] = useState(false)
 
+    useEffect(() => {
+        if (openModal) {
+            document.body.classList.add('modal-open');
+        } else {
+            document.body.classList.remove('modal-open');
+        }
+
+        return () => {
+            document.body.classList.remove('modal-open');
+        };
+    }, [openModal]);
+
     return (
-        <div className="w-full border border-purple-500 rounded-lg overflow-hidden">
+        <div data-aos="fade-up" data-aos-duration="1200" className="w-full border border-[#6f54ef] rounded-lg overflow-hidden">
             <img className="w-full" src={project.image} alt="" />
 
             <div className="p-5 space-y-5">
@@ -17,7 +29,7 @@ const Project = ({ project }) => {
                     <a href={project?.links?.client_code}><Button1>Client Code</Button1></a>
                     <a href={project?.links?.server_code}><Button1>Server Code</Button1></a>
                     <a href={project?.links?.live_site}><Button1>Live Site</Button1></a>
-                    
+
                     <a onClick={() => setOpenModal(true)}><Button1>Details</Button1></a>
                 </div>
             </div>

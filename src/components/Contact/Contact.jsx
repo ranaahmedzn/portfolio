@@ -35,32 +35,32 @@ const Contact = () => {
             <h2 className="text-4xl font-bold text-center text-white mb-10">Contact Me</h2>
 
             <div className="flex flex-row-reverse gap-40 items-center justify-between">
-                <div className="rounded-lg w-1/2">
+                <div data-aos="fade-up-left" data-aos-delay="50" data-aos-duration="1200" className="rounded-lg w-1/2">
                     <div className="flex flex-col">
                         <form ref={form} onSubmit={handleSubmit(onSubmit)}>
                             <div className="grid gap-4 lg:gap-6">
                                 <div className="grid">
                                     <div>
                                         <label htmlFor="name" className="block text-sm font-medium text-white mb-1">Name</label>
-                                        <input type="text" {...register("name")} name="name" id="name" className="py-3 px-4 block w-full rounded-md text-sm focus:ring-[#FEBC1E] focus:border-0 bg-gray-700 text-gray-300" required />
+                                        <input type="text" {...register("name")} name="name" id="name" className="py-3 px-4 block w-full rounded-md text-sm focus:ring-[#FEBC1E] focus:border-0 bg-[#252947] text-gray-300" required />
                                     </div>
                                 </div>
 
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
                                     <div>
                                         <label htmlFor="email" className="block text-sm font-medium text-white mb-1">Email</label>
-                                        <input type="email" {...register("email")} name="email" id="email" className="py-3 px-4 block w-full rounded-md text-sm focus:ring-[#FEBC1E] focus:border-0 bg-gray-700 text-gray-300" required />
+                                        <input type="email" {...register("email")} name="email" id="email" className="py-3 px-4 block w-full rounded-md text-sm focus:ring-[#FEBC1E] focus:border-0 bg-[#252947] text-gray-300" required />
                                     </div>
 
                                     <div>
                                         <label htmlFor="phone" className="block text-sm font-medium text-white mb-1">Phone Number</label>
-                                        <input type="text" {...register("phone")} name="phone" id="phone" className="py-3 px-4 block w-full rounded-md text-sm focus:ring-[#FEBC1E] focus:border-0 bg-gray-700 text-gray-300" />
+                                        <input type="text" {...register("phone")} name="phone" id="phone" className="py-3 px-4 block w-full rounded-md text-sm focus:ring-[#FEBC1E] focus:border-0 bg-[#252947] text-gray-300" />
                                     </div>
                                 </div>
 
                                 <div>
                                     <label htmlFor="message" className="block text-sm font-medium text-white mb-1">Message</label>
-                                    <textarea id="message" {...register("message")} name="message" rows="4" className="py-3 px-4 block w-full rounded-md text-sm focus:ring-[#FEBC1E] focus:border-transparent bg-gray-700 text-gray-300" required></textarea>
+                                    <textarea id="message" {...register("message")} name="message" rows="4" className="py-3 px-4 block w-full rounded-md text-sm focus:ring-[#FEBC1E] focus:border-transparent bg-[#252947] text-gray-300" required></textarea>
                                 </div>
                             </div>
 
@@ -83,21 +83,21 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="w-1/2">
+                <div data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="1200" className="w-1/2">
                     <div className="mb-7">
                         <h2 className="text-gray-100 mb-2 text-3xl font-bold">Let&apos;s work with me</h2>
-                        <p className="text-gray-300">Let&apos;s join forces and bring your ideas to life! With collaboration and creativity, we can achieve something truly amazing. I&apos;m excited to work together and turn your vision into a reality. Don&apos;t wait any longer, Reach out now and let's get started!</p>
+                        <p className="text-gray-300">Let&apos;s join forces and bring your ideas to life! With collaboration and creativity, we can achieve something truly amazing. I&apos;m excited to work together and turn your vision into a reality. Don&apos;t wait any longer, Reach out now and let&apos;s get started!</p>
                     </div>
                     <div className="space-y-5">
-                        <div className="flex gap-3 items-center p-4 bg-gray-700 text-gray-100 text-lg font-medium rounded-lg">
+                        <div className="flex gap-3 items-center p-4 bg-[#252947] text-gray-100 text-lg font-medium rounded-lg">
                             <FaPhone />
                             <span>+8801781940069</span>
                         </div>
-                        <div className="flex gap-3 items-center p-4 bg-gray-700 text-gray-100 text-lg font-medium rounded-lg">
+                        <div className="flex gap-3 items-center p-4 bg-[#252947] text-gray-100 text-lg font-medium rounded-lg">
                             <FaEnvelope />
                             <span>ranasheikhsbd@gmail.com</span>
                         </div>
-                        <div className="flex gap-3 items-center p-4 bg-gray-700 text-gray-100 text-lg font-medium rounded-lg">
+                        <div className="flex gap-3 items-center p-4 bg-[#252947] text-gray-100 text-lg font-medium rounded-lg">
                             <FaLocationDot />
                             <span>Sirajganj | Bangladesh</span>
                         </div>

@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 import ScrollToTop from '../ScrollToTop/ScrollToTop';
 import { useEffect, useState } from "react";
 import Projects from "../Projects/Projects";
+import Skills from "../Skills/Skills";
 
 const Home = () => {
     const [activeSection, setActiveSection] = useState('home');
@@ -18,7 +19,7 @@ const Home = () => {
     }, []);
 
     const handleScroll = () => {
-        const sections = ['about', 'projects', 'contact'];
+        const sections = ['about', 'skills', 'projects', 'contact'];
         const scrollPosition = window.scrollY + 200;
 
         for (let i = 0; i < sections.length; i++) {
@@ -40,6 +41,7 @@ const Home = () => {
             <Hero />
             <div className='max-w-7xl px-4 md:px-10 mx-auto'>
                 <About />
+                <Skills />
                 <Projects />
                 <Contact />
             </div>

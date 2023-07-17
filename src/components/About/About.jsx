@@ -6,7 +6,7 @@ const About = () => {
         <section id="about" className="pt-10 pb-20">
             <hr className="animate-bounce h-2 w-[80px] mx-auto mb-3 border-0 rounded-full bg-[#6f54ef]" />
             <h2 className="poppins-font text-4xl font-bold text-center text-white">About Me</h2>
-            <div className="flex flex-col md:flex-row justify-between items-center mt-10">
+            <div className="flex flex-col md:flex-row justify-between items-center mt-16">
                 <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1200" className="w-full md:w-1/2 mb-5">
                     <img src={image} className='h-[450px] rounded-lg' alt="" />
                 </div>

@@ -15,6 +15,11 @@ const NavItems = ({activeSection, setOpen}) => {
                 </ScrollLink>
             </li>
             <li>
+                <ScrollLink className={`${activeSection === 'skills' ? 'active' : 'default'}`} to="skills" smooth={true} duration={500} offset={-80}>
+                    <span onClick={() => setOpen(open => !open)}>Skills</span>
+                </ScrollLink>
+            </li>
+            <li>
                 <ScrollLink className={`${activeSection === 'projects' ? 'active' : 'default'}`} to="projects" smooth={true} duration={500} offset={-80}>
                     <span onClick={() => setOpen(open => !open)}>Projects</span>
                 </ScrollLink>

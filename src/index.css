@@ -5,7 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body{
+body{
   overflow-x: hidden;
 }
 
@@ -30,11 +30,11 @@ body.modal-open {
 }
 
 .default {
-  @apply font-medium md:mx-5 py-2 block text-gray-100 hover:text-purple-600 transition cursor-pointer;
+  @apply font-medium md:mx-5 py-2 block text-gray-100 hover:text-[#6f54ef] transition cursor-pointer;
 }
 
 .active {
-  @apply font-medium md:mx-5 py-2 block text-purple-500 cursor-pointer;
+  @apply font-medium md:mx-5 py-2 block text-[#6f54ef] cursor-pointer;
 }
 
 .poppins-font{

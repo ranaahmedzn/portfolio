@@ -4,8 +4,8 @@
     "name": "Language Guard",
     "image": "https://i.ibb.co/CKS3CDG/language-guard.png",
     "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "features": ["Rana", "Torik", "Kashem", "Shakil", "Tawhid", "Sojib", "Abdullah", "Ripon"],
-    "used_technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Daisyui", "Firebase"],
+    "features": ["Dark-light toggle theme.", "Authentication system with firebase.", "Students can easily enroll in classes, book and manage their reservations, give feedback, delete bookings, and conveniently pay for their courses.", "Instructors have the ability to add new classes, to monitor his added classes.", "Administrators can efficiently manage classes, users, and assign instructor and admin roles, approved / denied classes.", "Admins can give feedback to instructors about their classes.", "Student can send message in the contact us section"],
+    "used_technologies": ["HTML", "CSS", "JavaScript", "React", "React-Router", "Tailwind", "Flowbite", "Swiper", "AOS", "Firebase", "Stripe", "Node", "Express", "MongoDB", "JWT", "AXIOS", "Tanstack Query"],
     "links": {
       "client_code": "https://github.com/ranasheikhzn/language-guard",
       "server_code": "https://github.com/ranasheikhzn/language-guard-server",
@@ -17,10 +17,10 @@
     "name": "Motive Toy",
     "image": "https://i.ibb.co/SdC9mxc/motive-toy.png",
     "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "features": ["Rana", "Torik", "Kashem", "Shakil", "Tawhid", "Sojib", "Abdullah", "Ripon"],
-    "used_technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Daisyui", "Firebase"],
+    "features": ["It's a React single page application.", "Athentication system with firebase.", "In the home page there are header, banner, photo gallery, shop by category, about us, subscribe and a footer.", "'Shop by toy category' feature in the category section.", "Beside all this there is a blog page with some blogs.", "'Search by toy name' feature in the all toy page.", "Sort by price in ascending / descending feature in the my toys page.", "User can add a new toy, update and delete toy."],
+    "used_technologies": ["HTML", "CSS", "JavaScript", "React", "React-Router", "Tailwind", "Daisyui", "Swiper", "AOS", "Firebase", "Node", "Express", "MongoDB", "JWT"],
     "links": {
-      "client_code": "https://github.com/ranasheikhzn/motive-toy",
+      "client_code": "https://github.com/ranasheikhzn/motive-toy-client",
       "server_code": "https://github.com/ranasheikhzn/motive-toy-server",
       "live_site": "https://motive-toy.web.app/"
     }
@@ -30,10 +30,10 @@
     "name": "Superior Recipe",
     "image": "https://i.ibb.co/72Hb9V7/Superior-Recipe.png",
     "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "features": ["Rana", "Torik", "Kashem", "Shakil", "Tawhid", "Sojib", "Abdullah", "Ripon"],
-    "used_technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Daisyui", "Firebase"],
+    "features": ["It's a React single page application.", "Athentication system with firebase.", "In the home page there are header, banner, photo gallery, shop by category, about us, subscribe and a footer.", "Beside all this there are a blog page and a error page.", "There are also google and github login option as well in the login page" ],
+    "used_technologies": ["HTML", "CSS", "JavaScript", "React", "React-Router", "Tailwind", "Daisyui", "Firebase", "Swiper"],
     "links": {
-      "client_code": "https://github.com/ranasheikhzn/superior-recipe",
+      "client_code": "https://github.com/ranasheikhzn/superior-recipe-client",
       "server_code": "https://github.com/ranasheikhzn/superior-recipe-server",
       "live_site": "https://superior-recipe.web.app/"
     }
@@ -43,11 +43,11 @@
     "name": "Iconic Job",
     "image": "https://i.ibb.co/b2qKgbF/iconic-job.png",
     "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "features": ["Rana", "Torik", "Kashem", "Shakil", "Tawhid", "Sojib", "Abdullah", "Ripon"],
-    "used_technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Daisyui", "Firebase"],
+    "features": ["Basically It's a React single page application.", "Eamil/password & Github login system with firebase", "Navigation menu at the top of the website where user can navigate with different pages.", "In home page, there is a View Details button inside every job card.", "In job details page there is a Apply Now button", "User can apply in job by click on the button",  "All the applied job will be shown in the applied job page"],
+    "used_technologies": ["HTML", "CSS", "JavaScript", "React", "React-Router", "Tailwind", "Daisyui", "Firebase", "Recharts"],
     "links": {
       "client_code": "https://github.com/ranasheikhzn/iconic-job",
-      "live_site": "https://iconic-job.web.app/"
+      "live_site": "https://iconic-job-ranasheikh.netlify.app/"
     }
   }
 ]

@@ -29,7 +29,7 @@ const Navbar = ({ activeSection }) => {
     };
 
     return (
-        <nav className={`sticky top-0 z-20 ${isSticky ? 'bg-gradient-to-br from-[#0F2033] via-[#1B1631] to-[#0F172B] sticky-nav' : ''}`}>
+        <nav className={`sticky top-0 z-20 ${isSticky || open ? 'bg-gradient-to-br from-[#0F2033] via-[#1B1631] to-[#0F172B] sticky-nav' : ''}`}>
             <div className="relative max-w-7xl mx-auto px-4 md:px-10 flex flex-wrap items-center justify-between w-full py-4 md:py-5 text-lg">
                 <div>
                     <Link to="/" className="poppins-font text-2xl md:text-3xl font-bold text-white">RANA SHEIKH</Link>
@@ -45,9 +45,9 @@ const Navbar = ({ activeSection }) => {
                         <NavItems activeSection={activeSection} />
                     </ul>
 
-                    <div className={`w-full md:hidden overflow-hidden text-gray-700 bg-white transition-all duration-500 ${open ? "h-[250px]" : "h-0"}`}>
+                    <div className={`w-full md:hidden overflow-hidden text-gray-700 transition-all duration-500 ${open ? "h-screen" : "h-0"}`}>
                         <ul className="pt-4">
-                            <NavItems activeSection={activeSection} />
+                            <NavItems setOpen={setOpen} activeSection={activeSection} />
                         </ul>
                     </div>
                 </div>

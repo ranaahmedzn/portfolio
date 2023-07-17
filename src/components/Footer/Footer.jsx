@@ -9,16 +9,16 @@ const Footer = () => {
                 <p>&copy; Copyright 2023 | All right reserved.</p>
                 <div className="flex gap-3">
                     <a href="https://www.linkedin.com/in/ranasheikhzn/">
-                        <FaLinkedin size={18} className='text-blue-500' />
+                        <FaLinkedin size={18} className='text-gray-400 hover:text-[#6f54ef]' />
                     </a>
                     <a href="https://www.github.com/ranasheikhzn">
-                        <FaGithub size={18} className='text-blue-500' />
+                        <FaGithub size={18} className='text-gray-400 hover:text-[#6f54ef]' />
                     </a>
                     <a href="https://www.facebook.com/ranasheikhzn">
-                        <FaFacebook size={18} className='text-blue-500' />
+                        <FaFacebook size={18} className='text-gray-400 hover:text-[#6f54ef]' />
                     </a>
                     <a href="https://www.twitter.com/ranasheikhzn">
-                        <FaTwitter size={18} className='text-blue-500' />
+                        <FaTwitter size={18} className='text-gray-400 hover:text-[#6f54ef]' />
                     </a>
                 </div>
             </div>

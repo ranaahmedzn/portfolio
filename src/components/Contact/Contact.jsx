@@ -31,10 +31,10 @@ const Contact = () => {
 
     return (
         <section id="contact" className="pt-10 pb-20">
-            <hr className="animate-bounce h-2 w-[80px] mx-auto mb-3 border-0 rounded-full bg-purple-600" />
+            <hr className="animate-bounce h-2 w-[80px] mx-auto mb-3 border-0 rounded-full bg-[#6f54ef]" />
             <h2 className="poppins-font text-4xl font-bold text-center text-white mb-10">Contact Me</h2>
 
-            <div className="flex flex-col-reverse md:flex-row-reverse gap-16 md:gap-40 items-center justify-between">
+            <div className="overflow-hidden pb-3 flex flex-col-reverse md:flex-row-reverse gap-16 md:gap-40 items-center justify-between">
                 <div data-aos="fade-up-left" data-aos-delay="50" data-aos-duration="1200" className="rounded-lg w-full md:w-1/2">
                     <div className="flex flex-col">
                         <form ref={form} onSubmit={handleSubmit(onSubmit)}>
@@ -90,16 +90,16 @@ const Contact = () => {
                     </div>
                     <div className="space-y-5">
                         <div className="flex gap-3 items-center p-4 bg-[#252947] text-gray-100 text-lg font-medium rounded-lg">
-                            <FaPhone />
-                            <span>+8801781940069</span>
+                            <FaPhone  className="text-[#6f54ef]"/>
+                            <span>Phone : +8801781940069</span>
                         </div>
                         <div className="flex gap-3 items-center p-4 bg-[#252947] text-gray-100 text-lg font-medium rounded-lg">
-                            <FaEnvelope />
-                            <span>ranasheikhsbd@gmail.com</span>
+                            <FaEnvelope className="text-[#6f54ef]"/>
+                            <span>Email : ranasheikhsbd@gmail.com</span>
                         </div>
                         <div className="flex gap-3 items-center p-4 bg-[#252947] text-gray-100 text-lg font-medium rounded-lg">
-                            <FaLocationDot />
-                            <span>Sirajganj | Bangladesh</span>
+                            <FaLocationDot className="text-[#6f54ef]"/>
+                            <span>Address : Sirajganj | Bangladesh</span>
                         </div>
                     </div>
                 </div>

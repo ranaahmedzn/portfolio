@@ -8,7 +8,7 @@ const DetailsModal = ({ id, setOpenModal }) => {
         fetch('projects.json').then(res => res.json()).then(data => {
             const project = data.find(project => project._id === id)
             setProject(project)
-            console.log(project)
+            // console.log(project)
         })
     }, [])
 
@@ -34,7 +34,7 @@ const DetailsModal = ({ id, setOpenModal }) => {
                         <h3 className="mb-3 text-xl font-bold text-gray-100">Features</h3>
                         <ul className="list-outside list-disc pl-5 text-gray-100">
                             {
-                                project?.features?.map((feature, index) => <li key={index}>{feature}</li>)
+                                project?.features?.map((feature, index) => <li key={index} >{feature}</li>)
                             }
                         </ul>
                     </div>

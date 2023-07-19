@@ -22,63 +22,63 @@ const Skills = () => {
 
             <div id='large' className='hidden md:block mt-16 space-y-8'>
                 <div className='flex justify-between gap-8'>
-                    <div className='skill-card'>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" data-aos-once="true" className='skill-card'>
                         <img src={html} alt="" />
                         <h4>HTML5</h4>
                     </div>
-                    <div className='skill-card'>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true" className='skill-card'>
                         <img src={css} alt="" />
                         <h4>CSS3</h4>
                     </div>
-                    <div className='skill-card'>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350" data-aos-once="true" className='skill-card'>
                         <img src={js} alt="" />
                         <h4>JavaScript</h4>
                     </div>
-                    <div className='skill-card'>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" data-aos-once="true" className='skill-card'>
                         <img src={react} alt="" />
                         <h4>React</h4>
                     </div>
                 </div>
                 <div className='flex justify-between gap-8'>
-                    <div className='skill-card'>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true" className='skill-card'>
                         <img src={bootstrap} alt="" />
                         <h4>Bootstrap</h4>
                     </div>
-                    <div className='skill-card'>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350" data-aos-once="true" className='skill-card'>
                         <img className='py-4' src={tailwind} alt="" />
                         <h4>Tailwind CSS</h4>
                     </div>
-                    <div className='skill-card'>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" data-aos-once="true" className='skill-card'>
                         <img src={node} alt="" />
                         <h4>Node JS</h4>
                     </div>
-                    <div className='skill-card'>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="650" data-aos-once="true" className='skill-card'>
                         <img src={express} alt="" />
                         <h4>Express JS</h4>
                     </div>
                 </div>
 
                 <div className='flex justify-center gap-8'>
-                    <div className='skill-card'>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true" className='skill-card'>
                         <img src={mongodb} alt="" />
                         <h4>MongoDB</h4>
                     </div>
-                    <div className='skill-card'>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350" data-aos-once="true" className='skill-card'>
                         <img src={firebase} alt="" />
                         <h4>Firebase</h4>
                     </div>
-                    <div className='skill-card'>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" data-aos-once="true" className='skill-card'>
                         <img src={npm} alt="" />
                         <h4>NPM</h4>
                     </div>
                 </div>
 
                 <div className='flex justify-center gap-8'>
-                    <div className='skill-card'>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true" className='skill-card'>
                         <img src={github} alt="" />
                         <h4>Github</h4>
                     </div>
-                    <div className='skill-card'>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350" data-aos-once="true" className='skill-card'>
                         <img src={vscode} alt="" />
                         <h4>VS Code</h4>
                     </div>

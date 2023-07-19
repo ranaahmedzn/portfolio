@@ -1,7 +1,7 @@
 #large .skill-card{
     width: 276px;
     height: 276px;
-    background-color: #252947;
+    background-color: #252947b0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,6 +12,7 @@
 #large .skill-card img{
     width: 80px;
     margin: 0 auto;
+    transition: all .5s;
 }
 
 #large .skill-card h4{
@@ -25,8 +26,8 @@
 
 #small .skill-card{
     width: full;
-    height: 180px;
-    background-color: #252947;
+    height: 175px;
+    background-color: #252947b0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,13 +36,21 @@
 }
 
 #small .skill-card img{
-    width: 60px;
+    width: 55px;
     margin: 0 auto;
 }
 
 #small .skill-card h4{
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: rgb(243 244 246);
+}
+
+#large .skill-card:hover{
+    background-color: #1d234b;
+}
+
+#large .skill-card:hover img{
+    transform: translateY(-10px) scale(1.10);
 }

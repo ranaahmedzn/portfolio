@@ -3,7 +3,7 @@
     "_id": 1,
     "name": "Language Guard",
     "image": "https://i.ibb.co/CKS3CDG/language-guard.png",
-    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "details": "This is a Foreign language learning website based on MERN Stack development. On this website, I have implemented 3 role-based user interfaces and functionalities. The roles are student, instructor, and admin. Please visit the project repository to know further about this project.",
     "features": ["Dark-light toggle theme.", "Authentication system with firebase.", "Students can easily enroll in classes, book and manage their reservations, give feedback, delete bookings, and conveniently pay for their courses.", "Instructors have the ability to add new classes, to monitor his added classes.", "Administrators can efficiently manage classes, users, and assign instructor and admin roles, approved / denied classes.", "Admins can give feedback to instructors about their classes.", "Student can send message in the contact us section"],
     "used_technologies": ["HTML", "CSS", "JavaScript", "React", "React-Router", "Tailwind", "Flowbite", "Swiper", "AOS", "Firebase", "Stripe", "Node", "Express", "MongoDB", "JWT", "AXIOS", "Tanstack Query"],
     "links": {
@@ -16,7 +16,7 @@
     "_id": 2,
     "name": "Motive Toy",
     "image": "https://i.ibb.co/SdC9mxc/motive-toy.png",
-    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "details": "Motive Toy is a Sports toy marketplace where you can find different types of sport toys. You can also add, update, or delete toys form your own toy collection. There are a few more features available in this website please visit my live site and project repositories to know more.",
     "features": ["It's a React single page application.", "Athentication system with firebase.", "In the home page there are header, banner, photo gallery, shop by category, about us, subscribe and a footer.", "'Shop by toy category' feature in the category section.", "Beside all this there is a blog page with some blogs.", "'Search by toy name' feature in the all toy page.", "Sort by price in ascending / descending feature in the my toys page.", "User can add a new toy, update and delete toy."],
     "used_technologies": ["HTML", "CSS", "JavaScript", "React", "React-Router", "Tailwind", "Daisyui", "Swiper", "AOS", "Firebase", "Node", "Express", "MongoDB", "JWT"],
     "links": {
@@ -29,7 +29,7 @@
     "_id": 3,
     "name": "Superior Recipe",
     "image": "https://i.ibb.co/72Hb9V7/Superior-Recipe.png",
-    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "details": "Superior Recipe is an Italian food recipes website. Where you see the most famous italian chefs and their famous food recipes. Explore more about this website by visiting the live site and project repositories.",
     "features": ["It's a React single page application.", "Athentication system with firebase.", "In the home page there are header, banner, photo gallery, shop by category, about us, subscribe and a footer.", "Beside all this there are a blog page and a error page.", "There are also google and github login option as well in the login page" ],
     "used_technologies": ["HTML", "CSS", "JavaScript", "React", "React-Router", "Tailwind", "Daisyui", "Firebase", "Swiper"],
     "links": {
@@ -42,7 +42,7 @@
     "_id": 4,
     "name": "Iconic Job",
     "image": "https://i.ibb.co/b2qKgbF/iconic-job.png",
-    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "details": "Iconic Job is an International job portal website. You can explore many job opportunities with all the information you need. You can also apply for jobs. Click details button to see all the features in Details.",
     "features": ["Basically It's a React single page application.", "Eamil/password & Github login system with firebase", "Navigation menu at the top of the website where user can navigate with different pages.", "In home page, there is a View Details button inside every job card.", "In job details page there is a Apply Now button", "User can apply in job by click on the button",  "All the applied job will be shown in the applied job page"],
     "used_technologies": ["HTML", "CSS", "JavaScript", "React", "React-Router", "Tailwind", "Daisyui", "Firebase", "Recharts"],
     "links": {

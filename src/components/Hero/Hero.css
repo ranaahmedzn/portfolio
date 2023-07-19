@@ -1,4 +1,4 @@
-.hero {
+/* .hero {
     position: relative;
 }
 
@@ -9,7 +9,7 @@
     left: 0;
     width: 100%;
     height: calc(100% + 80px);
-    background-image: url("../../assets/background1.jpg");
+    background-image: url('../../assets/background1.jpg');
     background-size: cover;
     opacity: 0.07;
-}
+} */

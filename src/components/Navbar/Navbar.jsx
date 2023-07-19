@@ -28,8 +28,10 @@ const Navbar = ({ activeSection }) => {
         setPrevScrollPos(currentScrollPos);
     };
 
+    const stickyBg = isSticky || open ? {} : { backgroundImage: "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAABVQTFRFnJybwsLB5ublu7u7m5ubAAAA5ublHkCv9wAAAAd0Uk5TCQgJBgcACA9AjvwAAAAhSURBVHicY2BUwgCKDCahGCCEIRVTMHRUcFRwxAliyx0A6BQHnn3kz9cAAAAASUVORK5CYII=)"}
+
     return (
-        <nav className={`sticky top-0 z-20 ${isSticky || open ? 'bg-gradient-to-br from-[#0F2033] via-[#1B1631] to-[#0F172B] sticky-nav' : ''}`}>
+        <nav style={stickyBg} className={`sticky top-0 z-20 ${isSticky || open ? 'bg-gradient-to-br from-[#0F2033] via-[#1B1631] to-[#0F172B] sticky-nav' : ''}`}>
             <div className="relative max-w-7xl mx-auto px-4 md:px-10 flex flex-wrap items-center justify-between w-full py-4 md:py-5 text-lg">
                 <div>
                     <Link to="/" className="poppins-font text-2xl md:text-3xl font-bold text-white">RANA SHEIKH</Link>

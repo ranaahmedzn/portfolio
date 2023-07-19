@@ -1,4 +1,4 @@
-/* google font link */
+/* google font links */
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
 
 @tailwind base;
@@ -39,4 +39,8 @@ body.modal-open {
 
 .poppins-font{
   font-family: 'Poppins', sans-serif;
+}
+
+.lato-font{
+  font-family: 'Lato', sans-serif;
 }

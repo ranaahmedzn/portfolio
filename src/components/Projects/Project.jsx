@@ -8,11 +8,13 @@ const Project = ({ project }) => {
     const [openModal, setOpenModal] = useState(false)
 
     useEffect(() => {
-        if (openModal) {
-            document.body.classList.add('modal-open');
-        } else {
-            document.body.classList.remove('modal-open');
-        }
+        setTimeout(() => {
+            if (openModal) {
+                document.body.classList.add('modal-open');
+            } else {
+                document.body.classList.remove('modal-open');
+            }
+        }, 200)
 
         return () => {
             document.body.classList.remove('modal-open');
@@ -20,14 +22,14 @@ const Project = ({ project }) => {
     }, [openModal]);
 
     return (
-        <div data-aos="fade-up" data-aos-duration="1200" className="w-full border border-[#6f54ef] rounded-lg overflow-hidden">
+        <div data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" className="w-full border border-[#6f54ef] rounded-lg overflow-hidden">
             <img className="w-full" src={project.image} alt="" />
 
             <div className="p-5 space-y-5">
                 <h3 className="text-2xl font-semibold text-gray-100">{project.name}</h3>
-                <p className="text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae cumque illo voluptas assumenda architecto mollitia laudantium culpa, labore est, accusantium qui debitis. Quibusdam beatae iste ducimus totam corrupti expedita repudiandae.</p>
+                <p className="lato-font text-gray-400">{project.details}</p>
 
-                <div className="hidden md:flex gap-3">
+                <div className="hidden md:flex flex-wrap gap-3">
                     <a href={project?.links?.client_code}><Button1>Client Code</Button1></a>
                     {project?.links?.server_code && <a href={project?.links?.server_code}><Button1>Server Code</Button1></a>}
                     <a href={project?.links?.live_site}><Button1>Live Site</Button1></a>
@@ -40,7 +42,7 @@ const Project = ({ project }) => {
                     {project?.links?.server_code && <a href={project?.links?.server_code}><FaGithub size={26} className="text-[#6f54ef]" /></a>}
                     <a href={project?.links?.live_site}><BsBoxArrowUpRight size={26} className="text-[#6f54ef]" /></a>
 
-                    <a onClick={() => setOpenModal(true)}><Button1>Details</Button1></a>
+                    <a className="ml-auto" onClick={() => setOpenModal(true)}><Button1>Details</Button1></a>
                 </div>
             </div>
             {openModal && <DetailsModal id={project._id} setOpenModal={setOpenModal} />}

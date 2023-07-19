@@ -13,7 +13,7 @@ const Contact = () => {
 
     const onSubmit = data => {
         setLoading(true)
-        console.log(data)
+        // console.log(data)
 
         emailjs.sendForm('service_y70cm1w', 'template_vn4snqk', form.current, 'k8QpfSMEYotKVDtjU')
             .then((result) => {
@@ -25,17 +25,17 @@ const Contact = () => {
                     'success'
                 )
             }, (error) => {
-                console.log(error.text);
+                // console.log(error.text);
             });
     };
 
     return (
         <section id="contact" className="pt-10 pb-20">
             <hr className="animate-bounce h-2 w-[80px] mx-auto mb-3 border-0 rounded-full bg-[#6f54ef]" />
-            <h2 className="poppins-font text-4xl font-bold text-center text-white mb-10">Contact Me</h2>
+            <h2 className="poppins-font text-4xl font-bold text-center text-white">Contact Me</h2>
 
-            <div className="overflow-hidden pb-3 flex flex-col-reverse md:flex-row-reverse gap-16 md:gap-40 items-center justify-between">
-                <div data-aos="fade-up-left" data-aos-delay="50" data-aos-duration="1200" className="rounded-lg w-full md:w-1/2">
+            <div className="mt-16 overflow-hidden pb-3 flex flex-col-reverse md:flex-row-reverse gap-16 md:gap-40 items-center justify-between">
+                <div data-aos="fade-up-left" data-aos-delay="50" data-aos-duration="2000" data-aos-once="true" className="rounded-lg w-full md:w-1/2">
                     <div className="flex flex-col">
                         <form ref={form} onSubmit={handleSubmit(onSubmit)}>
                             <div className="grid gap-4 lg:gap-6">
@@ -83,10 +83,10 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="1200" className="w-full md:w-1/2">
+                <div data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="2000" data-aos-once="true" className="w-full md:w-1/2">
                     <div className="mb-7">
                         <h2 className="text-gray-100 mb-2 text-3xl font-bold">Let&apos;s work with me</h2>
-                        <p className="text-gray-300">Let&apos;s join forces and bring your ideas to life! With collaboration and creativity, we can achieve something truly amazing. I&apos;m excited to work together and turn your vision into a reality. Don&apos;t wait any longer, Reach out now and let&apos;s get started!</p>
+                        <p className="lato-font text-gray-400">Let&apos;s join forces and bring your ideas to life! With collaboration and creativity, we can achieve something truly amazing. I&apos;m excited to work together and turn your vision into a reality. Don&apos;t wait any longer, Reach out now and let&apos;s get started!</p>
                     </div>
                     <div className="space-y-5">
                         <div className="flex gap-3 items-center p-4 bg-[#252947] text-gray-100 text-lg font-medium rounded-lg">

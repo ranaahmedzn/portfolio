@@ -7,7 +7,6 @@ const Projects = () => {
     useEffect(() => {
         fetch('projects.json').then(res => res.json()).then(data => setProjects(data))
     }, [])
-    console.log(projects)
 
     return (
         <div id="projects" className="py-10">

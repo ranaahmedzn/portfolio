@@ -34,7 +34,7 @@ const Contact = () => {
             <hr className="animate-bounce h-2 w-[80px] mx-auto mb-3 border-0 rounded-full bg-[#6f54ef]" />
             <h2 className="poppins-font text-4xl font-bold text-center text-white">Contact Me</h2>
 
-            <div className="mt-16 overflow-hidden pb-3 flex flex-col-reverse md:flex-row-reverse gap-16 md:gap-40 items-center justify-between">
+            <div className="mt-16 overflow-hidden md:overflow-visible pb-3 flex flex-col-reverse md:flex-row-reverse gap-16 md:gap-40 items-center justify-between">
                 <div data-aos="fade-up-left" data-aos-delay="50" data-aos-duration="2000" data-aos-once="true" className="rounded-lg w-full md:w-1/2">
                     <div className="flex flex-col">
                         <form ref={form} onSubmit={handleSubmit(onSubmit)}>

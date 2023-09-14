@@ -1,5 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
-import profile1 from '../../assets/profile1.jpeg'
+import profileImg from '../../assets/ranaahmed.jpg'
 import { TypeAnimation } from "react-type-animation";
 import { Link as ScrollLink } from 'react-scroll';
 
@@ -15,7 +15,7 @@ const Hero = () => {
                     data-aos-once="true"
                 >
                     <p className="text-2xl md:text-3xl mb-3 font-bold text-[#6f54ef]">HEY!</p>
-                    <h2 className='text-4xl md:text-[50px] mb-4 md:mb-5 poppins-font font-bold text-gray-100'>I&apos;m Rana Sheikh</h2>
+                    <h2 className='text-4xl md:text-[50px] mb-4 md:mb-5 poppins-font font-bold text-gray-100'>I&apos;m Rana Ahmed</h2>
                     <TypeAnimation
                         className='text-xl md:text-3xl poppins-font font-medium text-gray-100'
                         sequence={[
@@ -61,7 +61,7 @@ const Hero = () => {
                     data-aos-easing="linear"
                     data-aos-once="true"
                 >
-                    <img src={profile1} alt="" width={380} className="rounded-full ml-auto ring-2 ring-[#6f54ef]" />
+                    <img src={profileImg} alt="" width={380} className="rounded-full ml-auto ring-2 ring-[#6f54ef]" />
                 </div>
             </div>
         </div>

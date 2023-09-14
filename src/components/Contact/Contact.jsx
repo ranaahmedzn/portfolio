@@ -95,7 +95,7 @@ const Contact = () => {
                         </div>
                         <div className="flex gap-3 items-center p-4 bg-[#252947] text-gray-100 text-lg font-medium rounded-lg">
                             <FaEnvelope className="text-[#6f54ef]"/>
-                            <span>Email : ranasheikhsbd@gmail.com</span>
+                            <span>Email : rana48ahmed@gmail.com</span>
                         </div>
                         <div className="flex gap-3 items-center p-4 bg-[#252947] text-gray-100 text-lg font-medium rounded-lg">
                             <FaLocationDot className="text-[#6f54ef]"/>

@@ -15,10 +15,11 @@ const Navbar = ({ activeSection }) => {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const handleScroll = () => {
-        const currentScrollPos = window.pageYOffset;
+        const currentScrollPos = window.scrollY; //window.pageYOffset
         if (currentScrollPos > prevScrollPos) {
             setIsSticky(true);
         }
@@ -37,7 +38,7 @@ const Navbar = ({ activeSection }) => {
                     <Link to="/" className="poppins-font text-2xl md:text-3xl font-bold text-white">RANA AHMED</Link>
                 </div>
 
-                <span className="cursor-pointer md:hidden text-[#6f54ef]" onClick={() => setOpen(!open)}>
+                <span className="cursor-pointer md:hidden text-[#35aac7]" onClick={() => setOpen(!open)}>
                     {open ? <HiXMark size={26}></HiXMark> : <HiBars3BottomRight size={26}></HiBars3BottomRight>}
                 </span>
 

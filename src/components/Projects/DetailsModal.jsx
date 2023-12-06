@@ -14,8 +14,8 @@ const DetailsModal = ({ id, setOpenModal }) => {
 
     return (
         <div data-aos="flip-left" className="fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-hidden md:inset-0 h-screen max-h-screen flex justify-center items-center bg-gradient-to-br from-[#0F2033] via-[#1B1631] to-[#0F172B]">
-            <div className="relative overflow-y-auto rounded-lg w-full max-w-xl h-4/5 border border-[#6f54ef]">
-                <button onClick={() => setOpenModal(false)} type="button" className="absolute top-2.5 right-2.5 z-10 text-gray-300 bg-[#6f54ef] rounded-full p-2 hover:bg-gradient-to-br from-purple-600 to-blue-500 hover:scale-105 transition duration-300">
+            <div className="relative overflow-y-auto rounded-lg w-full max-w-xl h-4/5 border border-[#35aac7]">
+                <button onClick={() => setOpenModal(false)} type="button" className="absolute top-2.5 right-2.5 z-10 text-gray-300 bg-[#35aac7] rounded-full p-2 hover:bg-gradient-to-br from-[#3669ac] to-[#35aac7] hover:scale-105 transition duration-300">
                     <FaXmark />
                 </button>
 

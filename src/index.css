@@ -25,16 +25,16 @@ body.modal-open {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #6f54ef;
+  background: #35aac7;
   border-radius: 10px;
 }
 
 .default {
-  @apply font-medium md:mx-5 py-2 block text-gray-100 hover:text-[#6f54ef] transition cursor-pointer;
+  @apply font-medium md:mx-5 py-2 block text-gray-100 hover:text-[#35aac7] transition cursor-pointer poppins-font;
 }
 
 .active {
-  @apply font-medium md:mx-5 py-2 block text-[#6f54ef] cursor-pointer;
+  @apply font-medium md:mx-5 py-2 block text-[#35aac7] cursor-pointer;
 }
 
 .poppins-font{

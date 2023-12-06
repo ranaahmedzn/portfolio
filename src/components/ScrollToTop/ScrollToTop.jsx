@@ -13,7 +13,7 @@ const ScrollToTop = () => {
     }, []);
 
     const toggleVisibility = () => {
-        if (window.pageYOffset > 300) {
+        if (window.scrollY > 300) {
             setIsVisible(true);
         } else {
             setIsVisible(false);
@@ -31,7 +31,7 @@ const ScrollToTop = () => {
     return (
         <div>
             {isVisible && (
-                <button data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-out" className="fixed right-7 bottom-5 text-white p-5 bg-gradient-to-br from-purple-600 to-blue-500 rounded-full animate-bounce" onClick={scrollToTop}>
+                <button data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-out" className="fixed right-7 bottom-5 text-white p-5 bg-gradient-to-br from-[#3669ac] to-[#35aac7] rounded-full animate-bounce" onClick={scrollToTop}>
                     <FaAngleDoubleUp />
                 </button>
             )}

@@ -13,11 +13,10 @@ import firebase from '../../assets/icons/firebase.png'
 import github from '../../assets/icons/github.png'
 import vscode from '../../assets/icons/vscode.png'
 
-
 const Skills = () => {
     return (
         <section id="skills" className="pt-10 pb-20">
-            <hr className="animate-bounce h-2 w-[80px] mx-auto mb-3 border-0 rounded-full bg-[#6f54ef]" />
+            <hr className="animate-bounce h-2 w-[80px] mx-auto mb-3 border-0 rounded-full bg-[#35aac7]" />
             <h2 className="poppins-font text-4xl font-bold text-center text-white">My Skills</h2>
 
             <div id='large' className='hidden md:block mt-16 space-y-8'>

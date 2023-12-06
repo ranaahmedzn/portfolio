@@ -31,7 +31,7 @@ const Contact = () => {
 
     return (
         <section id="contact" className="pt-10 pb-20">
-            <hr className="animate-bounce h-2 w-[80px] mx-auto mb-3 border-0 rounded-full bg-[#6f54ef]" />
+            <hr className="animate-bounce h-2 w-[80px] mx-auto mb-3 border-0 rounded-full bg-[#35aac7]" />
             <h2 className="poppins-font text-4xl font-bold text-center text-white">Contact Me</h2>
 
             <div className="mt-16 overflow-hidden md:overflow-visible pb-3 flex flex-col-reverse md:flex-row-reverse gap-16 md:gap-40 items-center justify-between">
@@ -65,11 +65,11 @@ const Contact = () => {
                             </div>
 
                             <div className="mt-6 grid">
-                                <button type="submit" className="relative inline-flex items-center justify-center px-5 py-3 font-medium text-white bg-gray-800 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500">
+                                <button type="submit" className="relative inline-flex items-center justify-center px-5 py-3 font-medium text-white bg-gray-800 rounded-lg group bg-gradient-to-br from-[#3669ac] to-[#35aac7]">
                                     <span className="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700"></span>
-                                    <span className="absolute top-0 left-0 w-full h-full rounded opacity-50 filter blur-sm bg-gradient-to-br from-purple-600 to-blue-500"></span>
-                                    <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-purple-600 to-blue-500"></span>
-                                    <span className="absolute inset-0 w-full h-full transition duration-200 ease-out rounded bg-gradient-to-br to-purple-600 from-blue-500"></span>
+                                    <span className="absolute top-0 left-0 w-full h-full rounded opacity-50 filter blur-sm bg-gradient-to-br from-[#3669ac] to-[#35aac7]"></span>
+                                    <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-[#3669ac] to-[#35aac7]"></span>
+                                    <span className="absolute inset-0 w-full h-full transition duration-200 ease-out rounded bg-gradient-to-br to-[#3669ac] from-[#35aac7]"></span>
                                     <span className="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700"></span>
                                     <span className="relative flex gap-1 items-center">
                                         {
@@ -90,15 +90,15 @@ const Contact = () => {
                     </div>
                     <div className="space-y-5">
                         <div className="flex gap-3 items-center p-4 bg-[#252947] text-gray-100 text-lg font-medium rounded-lg">
-                            <FaPhone  className="text-[#6f54ef]"/>
+                            <FaPhone  className="text-[#35aac7]"/>
                             <span>Phone : +8801781940069</span>
                         </div>
                         <div className="flex gap-3 items-center p-4 bg-[#252947] text-gray-100 text-lg font-medium rounded-lg">
-                            <FaEnvelope className="text-[#6f54ef]"/>
+                            <FaEnvelope className="text-[#35aac7]"/>
                             <span>Email : rana48ahmed@gmail.com</span>
                         </div>
                         <div className="flex gap-3 items-center p-4 bg-[#252947] text-gray-100 text-lg font-medium rounded-lg">
-                            <FaLocationDot className="text-[#6f54ef]"/>
+                            <FaLocationDot className="text-[#35aac7]"/>
                             <span>Address : Sirajganj | Bangladesh</span>
                         </div>
                     </div>

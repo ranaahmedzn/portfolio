@@ -34,7 +34,7 @@ body.modal-open {
 }
 
 .active {
-  @apply font-medium md:mx-5 py-2 block text-[#35aac7] cursor-pointer;
+  @apply font-medium md:mx-5 py-2 block text-[#35aac7] transition cursor-pointer poppins-font;
 }
 
 .poppins-font{

@@ -42,25 +42,25 @@ const Contact = () => {
                                 <div className="grid">
                                     <div>
                                         <label htmlFor="name" className="block text-sm font-medium text-white mb-1">Name</label>
-                                        <input type="text" {...register("name")} name="name" id="name" className="py-3 px-4 block w-full rounded-md text-sm focus:ring-[#FEBC1E] focus:border-0 bg-[#252947] text-gray-300" required />
+                                        <input type="text" {...register("name")} name="name" id="name" className="py-3 px-[15px] block w-full rounded-md text-sm md:focus:ring-1 md:focus:ring-[#3669ac] outline-none bg-[#252947] text-gray-300" required placeholder="Enter your name" />
                                     </div>
                                 </div>
 
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
                                     <div>
                                         <label htmlFor="email" className="block text-sm font-medium text-white mb-1">Email</label>
-                                        <input type="email" {...register("email")} name="email" id="email" className="py-3 px-4 block w-full rounded-md text-sm focus:ring-[#FEBC1E] focus:border-0 bg-[#252947] text-gray-300" required />
+                                        <input type="email" {...register("email")} name="email" id="email" className="py-3 px-[15px] block w-full rounded-md text-sm md:focus:ring-1 md:focus:ring-[#3669ac] outline-none bg-[#252947] text-gray-300" required placeholder="Enter your email" />
                                     </div>
 
                                     <div>
                                         <label htmlFor="phone" className="block text-sm font-medium text-white mb-1">Phone Number</label>
-                                        <input type="text" {...register("phone")} name="phone" id="phone" className="py-3 px-4 block w-full rounded-md text-sm focus:ring-[#FEBC1E] focus:border-0 bg-[#252947] text-gray-300" />
+                                        <input type="text" {...register("phone")} name="phone" id="phone" className="py-3 px-[15px] block w-full rounded-md text-sm md:focus:ring-1 md:focus:ring-[#3669ac] outline-none bg-[#252947] text-gray-300" placeholder="Enter your number" />
                                     </div>
                                 </div>
 
                                 <div>
                                     <label htmlFor="message" className="block text-sm font-medium text-white mb-1">Message</label>
-                                    <textarea id="message" {...register("message")} name="message" rows="4" className="py-3 px-4 block w-full rounded-md text-sm focus:ring-[#FEBC1E] focus:border-transparent bg-[#252947] text-gray-300" required></textarea>
+                                    <textarea id="message" {...register("message")} name="message" rows="4" className="py-3 px-[15px] block w-full rounded-md text-sm md:focus:ring-1 md:focus:ring-[#3669ac] outline-none bg-[#252947] text-gray-300" required placeholder="Write your message here.."></textarea>
                                 </div>
                             </div>
 

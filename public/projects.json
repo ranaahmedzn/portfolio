@@ -3,7 +3,7 @@
     "_id": 7,
     "name": "Developerlook",
     "tag": "Contributed",
-    "image": "/src/assets/projects/developerlook.png",
+    "image": "/projects/developerlook.png",
     "details": "Modern agency and company website built with Next.js, Strapi-powered content management, and smooth animated storytelling for services, projects, and case studies.",
     "features": [
       "CMS-driven pages powered by Strapi for services, projects, blogs, and company content.",
@@ -25,7 +25,7 @@
     "_id": 1,
     "name": "Syntech",
     "tag": "Contributed",
-    "image": "/src/assets/projects/syntech.png",
+    "image": "/projects/syntech.png",
     "details": "Next.js-based agency site for a technology company with Strapi-managed content, smooth animations, and fast, SEO-friendly marketing pages.",
     "features": [
       "Strapi CMS managing services, projects, blogs, and site-wide content.",
@@ -47,7 +47,7 @@
     "_id": 6,
     "name": "Elevate",
     "tag": "Contributed",
-    "image": "/src/assets/projects/elevate.png",
+    "image": "/projects/elevate.png",
     "details": "High-end agency / product site built with Next.js, Strapi, and advanced Three.js scenes combined with modern motion design.",
     "features": [
       "Strapi-driven content for services, projects, blogs, and marketing pages.",
@@ -69,7 +69,7 @@
     "_id": 2,
     "name": "Staffic.io",
     "tag": "Contributed",
-    "image": "/src/assets/projects/staffic-io.png",
+    "image": "/projects/staffic-io.png",
     "details": "Time-tracking and productivity platform for teams with real-time tracking, AI-powered insights, and advanced reporting.",
     "features": [
       "Real-time activity tracking and monitoring.",
@@ -90,7 +90,7 @@
     "_id": 3,
     "name": "Regulatory Jobs",
     "tag": "Contributed",
-    "image": "/src/assets/projects/regulatory-jobs.png",
+    "image": "/projects/regulatory-jobs.png",
     "details": "Scalable regulatory job platform with AI-powered search, multi-role dashboards, and real-time communication for candidates, employers, and admins.",
     "features": [
       "OpenAI-integrated AI agent for candidates and employers to ask about jobs or candidates.",
@@ -111,7 +111,7 @@
     "_id": 4,
     "name": "Lateral Hub",
     "tag": "Contributed",
-    "image": "/src/assets/projects/literalhub.png",
+    "image": "/projects/literalhub.png",
     "details": "Premier legal job board and content platform connecting lateral attorney candidates with top-tier law firms.",
     "features": [
       "Advanced job search with filters for location, practice area, and job level.",
@@ -130,7 +130,7 @@
     "_id": 5,
     "name": "Fusion Kitchen",
     "tag": "Contributed",
-    "image": "/src/assets/projects/fusion-kitchen.png",
+    "image": "/projects/fusion-kitchen.png",
     "details": "Frontend-focused restaurant and food experience built as a React SPA with rich motion and scrolling interactions.",
     "features": [
       "React single-page application built with Vite and React Router.",
@@ -147,7 +147,7 @@
     "_id": 8,
     "name": "Language Guard",
     "tag": "Personal",
-    "image": "/src/assets/projects/language-guard.png",
+    "image": "/projects/language-guard.png",
     "details": "This is a Foreign language learning website based on MERN Stack development. On this website, I have implemented 3 role-based user interfaces and functionalities. The roles are student, instructor, and admin. Please visit the project repository to know further about this project.",
     "features": [
       "Dark-light toggle theme.",

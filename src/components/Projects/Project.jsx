@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import DetailsModal from "./DetailsModal";
 import Button1 from "../Button1/Button1";
-import { FaGithub } from "react-icons/fa";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 
 const Project = ({ project }) => {
@@ -22,27 +21,52 @@ const Project = ({ project }) => {
     }, [openModal]);
 
     return (
-        <div data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" className="w-full border border-[#35aac7] rounded-lg overflow-hidden">
-            <img className="w-full" src={project.image} alt="" />
+        <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-once="true"
+            className="w-full rounded-2xl overflow-hidden bg-gradient-to-b from-[#0F2033] via-[#111827] to-[#020617] border border-[#1f2937] shadow-[0_20px_45px_rgba(15,23,42,0.75)] hover:translate-y-[-4px] hover:shadow-[0_25px_60px_rgba(15,23,42,0.9)] transition-all duration-300"
+        >
+            <div className="relative">
+                <img className="w-full aspect-video object-cover" src={project.image} alt={project.name} />
+                {project?.tag && (
+                    <span className="absolute bottom-4 left-4 px-3 py-1 text-xs font-semibold tracking-wide rounded-full bg-black/70 border border-white/20 text-gray-100 backdrop-blur">
+                        {project.tag === "Contributed" ? "CONTRIBUTED" : "PERSONAL"}
+                    </span>
+                )}
+            </div>
 
-            <div className="p-5 space-y-5">
-                <h3 className="text-2xl font-semibold text-gray-100">{project.name}</h3>
-                <p className="lato-font text-gray-400">{project.details}</p>
+            <div className="p-6 flex flex-col gap-4">
+                <h3 className="text-xl md:text-2xl font-semibold text-gray-100 tracking-tight">
+                    {project.name}
+                </h3>
+                <p className="lato-font text-sm md:text-[15px] leading-relaxed text-gray-400 line-clamp-3">
+                    {project.details}
+                </p>
 
-                <div className="hidden md:flex flex-wrap gap-3">
-                    <a href={project?.links?.client_code}><Button1>Client Code</Button1></a>
-                    {project?.links?.server_code && <a href={project?.links?.server_code}><Button1>Server Code</Button1></a>}
-                    <a href={project?.links?.live_site}><Button1>Live Site</Button1></a>
-
-                    <a onClick={() => setOpenModal(true)}><Button1>Details</Button1></a>
-                </div>
-
-                <div className="flex gap-4 items-center md:hidden">
-                    <a href={project?.links?.client_code}><FaGithub size={26} className="text-[#35aac7]" /></a>
-                    {project?.links?.server_code && <a href={project?.links?.server_code}><FaGithub size={26} className="text-[#35aac7]" /></a>}
-                    <a href={project?.links?.live_site}><BsBoxArrowUpRight size={26} className="text-[#35aac7]" /></a>
-
-                    <a className="ml-auto" onClick={() => setOpenModal(true)}><Button1>Details</Button1></a>
+                <div className="mt-2 flex flex-col sm:flex-row gap-3">
+                    <button
+                        type="button"
+                        onClick={() => setOpenModal(true)}
+                        className="w-full sm:w-auto"
+                    >
+                        <Button1>View Details</Button1>
+                    </button>
+                    {project?.links?.live_site && (
+                        <a
+                            href={project.links.live_site}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="w-full sm:w-auto"
+                        >
+                            <Button1>
+                                <span className="flex items-center gap-2">
+                                    <span>Live Site</span>
+                                    <BsBoxArrowUpRight />
+                                </span>
+                            </Button1>
+                        </a>
+                    )}
                 </div>
             </div>
             {openModal && <DetailsModal id={project._id} setOpenModal={setOpenModal} />}

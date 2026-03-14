@@ -13,7 +13,7 @@ const Projects = () => {
             <hr className="animate-bounce h-2 w-[80px] mx-auto mb-3 border-0 rounded-full bg-[#35aac7]" />
             <h2 className="poppins-font text-4xl font-bold text-center text-white">My Projects</h2>
 
-            <div className="grid gap-10 md:gap-20 grid-cols-1 md:grid-cols-2 my-16">
+            <div className="grid gap-8 md:gap-10 lg:gap-12 grid-cols-1 md:grid-cols-2 my-16">
                 {
                     projects.map(project => <Project
                         key={project._id}

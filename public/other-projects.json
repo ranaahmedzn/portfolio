@@ -1,0 +1,101 @@
+[
+    {
+        "_id": 9,
+        "name": "Motive Toy",
+        "tag": "Personal",
+        "image": "/src/assets/projects/motive-toy.png",
+        "details": "Motive Toy is a Sports toy marketplace where you can find different types of sport toys. You can also add, update, or delete toys form your own toy collection. There are a few more features available in this website please visit my live site and project repositories to know more.",
+        "features": [
+            "It's a React single page application.",
+            "Athentication system with firebase.",
+            "In the home page there are header, banner, photo gallery, shop by category, about us, subscribe and a footer.",
+            "'Shop by toy category' feature in the category section.",
+            "Beside all this there is a blog page with some blogs.",
+            "'Search by toy name' feature in the all toy page.",
+            "Sort by price in ascending / descending feature in the my toys page.",
+            "User can add a new toy, update and delete toy."
+        ],
+        "used_technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "React-Router",
+            "Tailwind",
+            "Daisyui",
+            "Swiper",
+            "AOS",
+            "Firebase",
+            "Node",
+            "Express",
+            "MongoDB",
+            "JWT"
+        ],
+        "links": {
+            "client_code": "https://github.com/ranaahmedzn/motive-toy-client",
+            "server_code": "https://github.com/ranaahmedzn/motive-toy-server",
+            "live_site": "https://motive-toy.web.app/"
+        }
+    },
+    {
+        "_id": 10,
+        "name": "Superior Recipe",
+        "tag": "Personal",
+        "image": "https://drive.google.com/uc?export=download&id=14lExZ2eoanMbFnfa3Er8pg5eWSKEKtZt",
+        "details": "Superior Recipe is an Italian food recipes website. Where you see the most famous italian chefs and their famous food recipes. Explore more about this website by visiting the live site and project repositories.",
+        "features": [
+            "It's a React single page application.",
+            "Athentication system with firebase.",
+            "In the home page there are header, banner, photo gallery, shop by category, about us, subscribe and a footer.",
+            "Beside all this there are a blog page and a error page.",
+            "There are also google and github login option as well in the login page"
+        ],
+        "used_technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "React-Router",
+            "Tailwind",
+            "Daisyui",
+            "Firebase",
+            "Swiper"
+        ],
+        "links": {
+            "client_code": "https://github.com/ranaahmedzn/superior-recipe-client",
+            "server_code": "https://github.com/ranaahmedzn/superior-recipe-server",
+            "live_site": "https://superior-recipe.web.app/"
+        }
+    },
+    {
+        "_id": 11,
+        "name": "Iconic Job",
+        "tag": "Personal",
+        "image": "https://drive.google.com/uc?export=download&id=1pl6-yp6xWeYo03WwGojujDkTZqnFWQxN",
+        "details": "Iconic Job is an International job portal website. You can explore many job opportunities with all the information you need. You can also apply for jobs. Click details button to see all the features in Details.",
+        "features": [
+            "Basically It's a React single page application.",
+            "Eamil/password & Github login system with firebase",
+            "Navigation menu at the top of the website where user can navigate with different pages.",
+            "In home page, there is a View Details button inside every job card.",
+            "In job details page there is a Apply Now button",
+            "User can apply in job by click on the button",
+            "All the applied job will be shown in the applied job page"
+        ],
+        "used_technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "React-Router",
+            "Tailwind",
+            "Daisyui",
+            "Firebase",
+            "Recharts"
+        ],
+        "links": {
+            "client_code": "https://github.com/ranaahmedzn/iconic-job",
+            "live_site": "https://iconic-job.netlify.app/"
+        }
+    }
+]

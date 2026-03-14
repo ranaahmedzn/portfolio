@@ -4,16 +4,21 @@
     "name": "Developerlook",
     "tag": "Contributed",
     "image": "/src/assets/projects/developerlook.png",
-    "details": "Developer-focused platform UI showcasing articles, resources, and tools for engineering teams.",
+    "details": "Modern agency and company website built with Next.js, Strapi-powered content management, and smooth animated storytelling for services, projects, and case studies.",
     "features": [
-      "Grid-based layout for content cards and featured posts.",
-      "Dark theme design with accent colors for interactions.",
-      "Responsive design with attention to spacing and legibility.",
-      "Call-to-action sections encouraging signups or newsletter joins."
+      "CMS-driven pages powered by Strapi for services, projects, blogs, and company content.",
+      "Localization support for managing content in multiple languages.",
+      "Modern animated UI built with GSAP and Framer Motion for section transitions and micro-interactions.",
+      "Lenis-based smooth scrolling and scroll-triggered animations.",
+      "Dynamic routes for projects, services, and blog posts with SEO-friendly URLs.",
+      "Blog and project archive pages with search and pagination.",
+      "Contact form with email notifications on new submissions.",
+      "Next.js Incremental Static Regeneration (ISR) for fast, cache-friendly page delivery.",
+      "Highly optimized, responsive layout with strong performance across devices."
     ],
-    "used_technologies": ["React", "Tailwind CSS"],
+    "used_technologies": ["React.js", "Next.js", "Strapi", "Tailwind CSS", "GSAP", "Framer Motion", "Lenis"],
     "links": {
-      "live_site": "#"
+      "live_site": "https://developerlook.com/"
     }
   },
   {
@@ -21,17 +26,21 @@
     "name": "Syntech",
     "tag": "Contributed",
     "image": "/src/assets/projects/syntech.png",
-    "details": "Modern SaaS landing platform for a technology company, focused on clear value proposition, pricing, and lead capture for B2B customers.",
+    "details": "Next.js-based agency site for a technology company with Strapi-managed content, smooth animations, and fast, SEO-friendly marketing pages.",
     "features": [
-      "Hero section with prominent primary CTA and supporting secondary actions.",
-      "Responsive layout optimized for desktop and mobile breakpoints.",
-      "Sections for product overview, feature grid, customer logos, and testimonial highlights.",
-      "Sticky navigation with smooth scrolling to key sections.",
-      "Conversion-focused footer with multiple contact and demo request entry points."
+      "Strapi CMS managing services, projects, blogs, and site-wide content.",
+      "Localization support for serving content to multiple regions and languages.",
+      "GSAP and Framer Motion animations for hero sections, content reveals, and interaction states.",
+      "Lenis smooth scrolling for a fluid browsing experience.",
+      "Dynamic service, project, and blog detail pages generated from CMS content.",
+      "Blog and project archive pages with search and pagination.",
+      "Contact form with email delivery on new inquiries.",
+      "Next.js ISR for fast builds and up-to-date content without full redeploys.",
+      "Responsive, performance-optimized layout across desktop and mobile."
     ],
-    "used_technologies": ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    "used_technologies": ["React.js", "Next.js", "TypeScript", "Strapi", "Tailwind CSS", "GSAP", "Framer Motion", "Lenis"],
     "links": {
-      "live_site": "#"
+      "live_site": "https://syn-tech.ch/"
     }
   },
   {
@@ -39,16 +48,21 @@
     "name": "Elevate",
     "tag": "Contributed",
     "image": "/src/assets/projects/elevate.png",
-    "details": "Clean, professional marketing site for a digital product or service helping teams elevate their workflows.",
+    "details": "High-end agency / product site built with Next.js, Strapi, and advanced Three.js scenes combined with modern motion design.",
     "features": [
-      "Hero layout with bold headline and supporting visuals.",
-      "Feature sections organized in responsive card grids.",
-      "Testimonials and logos to build trust and credibility.",
-      "Footer with navigation, contact, and social links."
+      "Strapi-driven content for services, projects, blogs, and marketing pages.",
+      "Localization and region-aware content for different audiences.",
+      "Three.js powered hero/visual sections combined with GSAP and Framer Motion animations.",
+      "Lenis smooth scroll with scroll-triggered animations and parallax effects.",
+      "Dynamic routes for project case studies, services, and blog posts.",
+      "Archive pages for blogs and projects with search and pagination.",
+      "Contact form with email notifications for new leads.",
+      "Next.js ISR for ultra-fast, always-fresh content delivery.",
+      "Highly responsive, animation-rich experience tuned for performance."
     ],
-    "used_technologies": ["React", "Tailwind CSS"],
+    "used_technologies": ["React.js", "Next.js", "Strapi", "Tailwind CSS", "GSAP", "Framer Motion", "Three.js", "Lenis"],
     "links": {
-      "live_site": "#"
+      "live_site": "https://elevate-dev.developerlook.co/"
     }
   },
   {
@@ -56,16 +70,20 @@
     "name": "Staffic.io",
     "tag": "Contributed",
     "image": "/src/assets/projects/staffic-io.png",
-    "details": "Time-tracking and workforce management platform with dashboards for teams, managers, and operations stakeholders.",
+    "details": "Time-tracking and productivity platform for teams with real-time tracking, AI-powered insights, and advanced reporting.",
     "features": [
-      "Dashboard views for tracking team time entries and utilization in real time.",
-      "Projects and tasks overview with quick filtering and search.",
-      "Modular cards for key metrics such as billable hours, active timers, and timesheet status.",
-      "Responsive layout with clear information hierarchy and accessible color contrast."
+      "Real-time activity tracking and monitoring.",
+      "Real-time notifications where users can take action directly from notifications.",
+      "App and URL tracking for measuring focused work time.",
+      "Team management with roles, permissions, and member overviews.",
+      "AI-based productivity insights and suggestions.",
+      "Task and project management system integrated with time tracking.",
+      "Automated invoicing and reporting for clients and internal teams.",
+      "Advanced analytics dashboard for utilization, productivity, and billing."
     ],
-    "used_technologies": ["React", "Tailwind CSS", "Chart.js"],
+    "used_technologies": ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "Redis", "Tailwind CSS"],
     "links": {
-      "live_site": "#"
+      "live_site": "https://staffic.io/"
     }
   },
   {
@@ -73,33 +91,39 @@
     "name": "Regulatory Jobs",
     "tag": "Contributed",
     "image": "/src/assets/projects/regulatory-jobs.png",
-    "details": "Niche job board platform for regulatory careers with advanced filtering and rich job details.",
+    "details": "Scalable regulatory job platform with AI-powered search, multi-role dashboards, and real-time communication for candidates, employers, and admins.",
     "features": [
-      "Job listings grid with filters for role, location, and seniority.",
-      "Job details pages with sticky apply section and related jobs.",
-      "Saved jobs and recently viewed interactions.",
-      "Content sections explaining employer benefits and candidate features."
+      "OpenAI-integrated AI agent for candidates and employers to ask about jobs or candidates.",
+      "Three roles—Candidate, Employer, and Admin—each with a dedicated login experience.",
+      "Real-time messaging and notifications where users can act directly from notifications.",
+      "Candidate dashboard for tracking application progress and saved jobs.",
+      "Admin panel with full-system analytics powered by Redis caching.",
+      "Admin blog management system for publishing and managing content.",
+      "Advanced job searching and filtering across multiple dimensions.",
+      "Employer dashboard with custom form builder for each job posting."
     ],
-    "used_technologies": ["React", "Tailwind CSS", "React Router"],
+    "used_technologies": ["OpenAI", "React.js", "Next.js", "Tailwind CSS", "Node.js", "MongoDB", "Socket.IO", "Redis", "Zustand"],
     "links": {
-      "live_site": "#"
+      "live_site": "https://regulatoryjobs.com/"
     }
   },
   {
     "_id": 4,
-    "name": "Literalhub",
+    "name": "Lateral Hub",
     "tag": "Contributed",
     "image": "/src/assets/projects/literalhub.png",
-    "details": "Specialized job marketplace for legal professionals connecting candidates with top-tier law firms.",
+    "details": "Premier legal job board and content platform connecting lateral attorney candidates with top-tier law firms.",
     "features": [
-      "Landing page focused on law firms and lateral candidates.",
-      "Highlighted partner firms and key platform statistics.",
-      "Conversion-focused CTAs for signing up and posting jobs.",
-      "Responsive layout with polished typography and imagery."
+      "Advanced job search with filters for location, practice area, and job level.",
+      "Infinite scrolling job listings with rich employer and role details.",
+      "Landing experience tailored for lateral attorney candidates and top-tier law firms.",
+      "Structured SEO metadata and schema for improved discoverability.",
+      "Newsletter and job alert flows to keep candidates informed.",
+      "Post-clerkship and interview preparation resources for candidates."
     ],
-    "used_technologies": ["React", "Tailwind CSS"],
+    "used_technologies": ["React.js", "Next.js", "Supabase", "PostgreSQL", "Node.js", "TypeScript", "Tailwind CSS"],
     "links": {
-      "live_site": "#"
+      "live_site": "https://lateralhub.developerlook.co/"
     }
   },
   {
@@ -107,16 +131,16 @@
     "name": "Fusion Kitchen",
     "tag": "Contributed",
     "image": "/src/assets/projects/fusion-kitchen.png",
-    "details": "Frontend-focused restaurant and food ordering experience highlighting menu items, offers, and reservation flows.",
+    "details": "Frontend-focused restaurant and food experience built as a React SPA with rich motion and scrolling interactions.",
     "features": [
-      "Hero section with promotional offer and clear call-to-action.",
-      "Category-based menu sections with images and pricing.",
-      "Call-to-action buttons for table booking and online orders.",
-      "Responsive layout optimized for both mobile and desktop diners."
+      "React single-page application built with Vite and React Router.",
+      "Scroll and motion animations using AOS, React Spring, and Lottie.",
+      "Responsive, modern UI styled with Tailwind CSS.",
+      "Interactive components including marquee sections, typed text, and Swiper carousel."
     ],
-    "used_technologies": ["React", "Tailwind CSS", "Framer Motion"],
+    "used_technologies": ["React.js", "Vite", "Tailwind CSS", "React Router", "React Lottie", "React Spring"],
     "links": {
-      "live_site": "#"
+      "live_site": "https://fusionkitchen.torikulislam.com/"
     }
   },
   {

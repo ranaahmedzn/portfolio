@@ -1,5 +1,5 @@
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import image from '../../assets/image.jpg'
+import image from '../../assets/about-image.jpg'
 
 const About = () => {
     return (
@@ -8,13 +8,14 @@ const About = () => {
             <h2 className="poppins-font text-4xl font-bold text-center text-white">About Me</h2>
             <div className="flex flex-col md:flex-row justify-between items-center mt-16">
                 <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="2000" data-aos-once="true" className="w-full md:w-1/2 mb-5">
-                    <img src={image} className='h-[450px] rounded-lg ring-2 ring-[#2E6F9B]' alt="" />
+                    {/* ring-2 ring-[#2E6F9B] */}
+                    <img src={image} className='h-[450px] rounded-lg' alt="" />
                 </div>
 
                 <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="2000" data-aos-once="true" className="w-full md:w-1/2">
                     <p className="text-xl mb-1 font-bold text-[#35aac7] poppins-font">Who I&apos;m</p>
                     <h3 className='text-4xl font-bold text-gray-100 poppins-font'>My name is Rana Ahmed,</h3>
-                    <p className="lato-font mt-4 mb-6 w-full text-gray-400 text-justify"> a 20-year-old junior web application developer, and I stand tall at 5 feet 8 inches. Currently pursuing a Bachelor of Arts degree at Sirajganj Government College under the esteemed National University of Bangladesh, I am fueling my passion for technology and web development. I live in the picturesque village of Enayetpur in Sirajganj.</p>
+                    <p className="lato-font mt-4 mb-6 w-full text-gray-400 text-justify"> a full-stack developer, and I stand tall at 5 feet 8 inches. Currently pursuing a Bachelor of Arts degree at Sirajganj Government College under the esteemed National University of Bangladesh, I am fueling my passion for technology and web development. I live in the picturesque village of Enayetpur in Sirajganj.</p>
                     <p className="lato-font mt-4 mb-6 w-full text-gray-400 text-justify">Coding isn&apos;t just a job for me; it&apos;s a passion that I pursue with dedication and enthusiasm. I constantly immerse myself in technological blogs and articles, keeping up-to-date with the latest trends and innovations. My hobbies are traveling and exploring new places. I enjoy watching adventurous movies and animated series.</p>
 
                     <p className="text-xl font-bold text-[#35aac7] poppins-font mb-3">To know more Visit my_</p>

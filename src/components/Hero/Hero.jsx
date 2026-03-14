@@ -1,5 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
-import profileImg from '../../assets/ranaahmed.jpg'
+import profileImg from '../../assets/rana-ahmed.png'
 import { TypeAnimation } from "react-type-animation";
 import { Link as ScrollLink } from 'react-scroll';
 
@@ -19,11 +19,9 @@ const Hero = () => {
                     <TypeAnimation
                         className='text-xl md:text-3xl poppins-font font-medium text-gray-100'
                         sequence={[
-                            "And I'm a MERN Stack Developer",
+                            "And I'm a Full-Stack Developer",
                             1000,
-                            "And I'm a Junior Web Developer",
-                            1000,
-                            "And I'm a Front-End Developer",
+                            "And I'm a Front-End Specialist",
                             1000,
                         ]}
                         speed={50}
@@ -61,7 +59,7 @@ const Hero = () => {
                     data-aos-easing="linear"
                     data-aos-once="true"
                 >
-                    <img src={profileImg} alt="" width={380} className="rounded-full ml-auto ring-2 ring-[#2E6F9B]" />
+                    <img src={profileImg} alt="" width={380} className="rounded-full ml-auto" />
                 </div>
             </div>
         </div>
